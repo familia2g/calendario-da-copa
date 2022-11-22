@@ -41,3 +41,9 @@
 .card ul li strong:hover {
     transform: scale(1.1);
 }
+
+.card h2:hover,
+.card ul li img:hover,
+.card ul li strong:hover {
+    transition: transform  0.3s;
+}
